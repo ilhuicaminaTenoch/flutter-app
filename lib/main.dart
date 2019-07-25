@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'description_place.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -12,31 +12,9 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Compartir d'),
+          title: Text('Hola mundo feliz'),
         ),
-        body:Container(
-          decoration: BoxDecoration(
-            image: DecorationImage(
-                image: AssetImage('images/akatsuki.jpg'),
-              fit: BoxFit.cover
-            )
-          ),
-          child: Center(
-            child: Container(
-              height: 60.0,
-              color: Color.fromRGBO(0, 0, 0, 0.2),
-              child: Center(
-                child: Text(
-                  'AMATERASU',
-                  style: TextStyle(
-                      color: Color.fromRGBO(255, 255, 255, 0.9),
-                      fontSize: 30.0
-                  )
-                ),
-              ),
-            ),
-          ),
-        )
+        body: new DescriptionPlace()
       )
     );
   }
