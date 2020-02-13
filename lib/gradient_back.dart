@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 class GradienBack extends StatelessWidget {
+
+  String titulo = 'Popula';
+  GradienBack(this.titulo);
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -18,6 +21,16 @@ class GradienBack extends StatelessWidget {
           tileMode: TileMode.clamp
         )
       ),
+      child: Text(
+        titulo,
+        style: TextStyle(
+          color: Colors.white,
+          fontSize: 30.0,
+          fontFamily: 'Lato',
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+      alignment: Alignment(-0.9,-0.6),
     );
   }
 
