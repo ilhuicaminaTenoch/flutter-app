@@ -3,6 +3,7 @@ import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
 import 'header_appbar.dart';
+import 'list_contants/list_contacts.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         //body: new DescriptionPlace(descripcion, nombre, estrellas)
-        body: Stack(
+        /*body: Stack(
           children: <Widget>[
             ListView(
               children: <Widget>[
@@ -28,7 +29,16 @@ class MyApp extends StatelessWidget {
             ),
             HeaderAppBar()
           ],
-        )
+        )*/
+        body: Stack(
+          children: <Widget>[
+            ListView(
+              children: <Widget>[
+                ListContacts()
+              ],
+            )
+          ],
+        ),
       )
     );
   }

@@ -77,6 +77,12 @@ flutter:
      - assets/img/paisajes-bonitos-4.jpg
      - assets/img/paisajes-bonitos-5.jpg
      - assets/img/paisajes-bonitos-6.jpg
+     - assets/img/face/cara-1.jpeg
+     - assets/img/face/cara-2.jpeg
+     - assets/img/face/cara-3.jpeg
+     - assets/img/face/cara-4.jpeg
+     - assets/img/face/cara-5.jpeg
+     - assets/img/face/cara-6.jpeg
    fonts:
      - family: Lato
        fonts:
