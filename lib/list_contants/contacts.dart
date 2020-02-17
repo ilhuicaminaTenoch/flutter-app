@@ -23,6 +23,7 @@ class Contact extends StatelessWidget {
 
     final nombreUsuario = Container(
       margin: EdgeInsets.only(left: 15.0, top: 25.0),
+      width: 190.0,
       child: Text(
         nombre,
         textAlign: TextAlign.left,
@@ -50,7 +51,7 @@ class Contact extends StatelessWidget {
     );
 
     final icono = Container(
-      margin: EdgeInsets.only(top: 20.0, left: 50.0),
+      margin: EdgeInsets.only(top: 20.0, left: 40.0),
       child: Material(
         color: Colors.white,
         child: Center(

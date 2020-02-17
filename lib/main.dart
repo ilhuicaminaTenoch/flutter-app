@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         //body: new DescriptionPlace(descripcion, nombre, estrellas)
-        /*body: Stack(
+        body: Stack(
           children: <Widget>[
             ListView(
               children: <Widget>[
@@ -29,8 +29,8 @@ class MyApp extends StatelessWidget {
             ),
             HeaderAppBar()
           ],
-        )*/
-        body: Stack(
+        )
+        /*body: Stack(
           children: <Widget>[
             ListView(
               children: <Widget>[
@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
               ],
             )
           ],
-        ),
+        ),*/
       )
     );
   }
