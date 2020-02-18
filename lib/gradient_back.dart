@@ -3,12 +3,23 @@ import 'package:flutter/material.dart';
 class GradienBack extends StatelessWidget {
 
   String titulo = 'Popula';
-  GradienBack(this.titulo);
+  double height = 250.0;
+  GradienBack(this.titulo, this.height);
   @override
   Widget build(BuildContext context) {
+
+    final icono = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: <Widget>[
+        Icon(
+          Icons.accessibility,
+          color: Colors.black38,
+        ),
+      ],
+    );
     // TODO: implement build
     return Container(
-      height: 250.0,
+      height: height,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
