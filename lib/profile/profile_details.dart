@@ -70,10 +70,14 @@ class ProfileDetails extends StatelessWidget{
     );
 
 
-    return Row(
+    return Stack(
       children: <Widget>[
-        photoProfile,
-        descriptionProfile
+        Row(
+          children: <Widget>[
+            photoProfile,
+            descriptionProfile
+          ],
+        ),
       ],
     );
   }

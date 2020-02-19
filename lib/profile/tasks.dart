@@ -115,14 +115,18 @@ class Tasks extends StatelessWidget {
       ),
     );
 
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.start,
+    return Stack(
       children: <Widget>[
-        taskAndroid,
-        taskAdd,
-        taskAirport,
-        taskAirPlay,
-        taskApps
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            taskAndroid,
+            taskAdd,
+            taskAirport,
+            taskAirPlay,
+            taskApps
+          ],
+        )
       ],
     );
   }
