@@ -14,7 +14,8 @@ class CardImageListStep extends StatelessWidget{
           scrollDirection: Axis.vertical,
           children: <Widget>[
             CardImageStep("assets/img/viaje01.jpg"),
-            //CardImageStep("assets/img/viaje02.jpg"),
+            CardImageStep("assets/img/viaje02.jpg"),
+            CardImageStep("assets/img/viaje02.jpg")
           ],
         ),
       ),
