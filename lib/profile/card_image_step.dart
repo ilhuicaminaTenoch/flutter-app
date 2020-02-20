@@ -3,8 +3,11 @@ import 'package:trips_app/floating_action_button_green.dart';
 
 class CardImageStep extends StatelessWidget {
   String pathImage = 'assets/img/paisajes-bonitos-1.jpg';
+  String titleTravel = 'Texto de pruebas';
+  String descriptionTravel = '';
+  String stepsTravel = '';
 
-  CardImageStep(this.pathImage);
+  CardImageStep(this.pathImage, this.titleTravel, this.descriptionTravel, this.stepsTravel);
 
   @override
   Widget build(BuildContext context) {
@@ -46,7 +49,7 @@ class CardImageStep extends StatelessWidget {
           bottom: 5.0
       ),
       child: Text(
-        'Lorem ipsum dolor',
+        titleTravel,
         textAlign: TextAlign.left,
         style: TextStyle(
             fontWeight: FontWeight.bold,
@@ -65,7 +68,7 @@ class CardImageStep extends StatelessWidget {
           bottom: 9.0
       ),
       child: Text(
-        'pellentesque quam. Mauris id rhoncus lorem. Pellentesque habitant',
+        descriptionTravel,
         textAlign: TextAlign.left,
         style: TextStyle(
             //fontWeight: FontWeight.bold,
@@ -83,7 +86,7 @@ class CardImageStep extends StatelessWidget {
       child: Row(
         children: <Widget>[
           Text(
-            'Steps 1,254,874',
+            stepsTravel,
             style: TextStyle(
               color: Colors.amber,
               fontSize: 14.0,
