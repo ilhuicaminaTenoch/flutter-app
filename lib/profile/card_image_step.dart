@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trips_app/floating_action_button_green.dart';
+import 'package:trips_app/widgets/floating_action_button_green.dart';
 
 class CardImageStep extends StatelessWidget {
   String pathImage = 'assets/img/paisajes-bonitos-1.jpg';

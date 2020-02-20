@@ -85,6 +85,16 @@ flutter:
      - assets/img/face/cara-4.jpeg
      - assets/img/face/cara-5.jpeg
      - assets/img/face/cara-6.jpeg
+     - assets/img/people.jpg
+     - assets/img/ann.jpg
+     - assets/img/girl.jpg
+     - assets/img/mountain.jpeg
+     - assets/img/beach.jpeg
+     - assets/img/beach_palm.jpeg
+     - assets/img/mountain_stars.jpeg
+     - assets/img/sunset.jpeg
+     - assets/img/river.jpeg
+
    fonts:
      - family: Lato
        fonts:

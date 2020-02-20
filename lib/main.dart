@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'trips.dart';
+import 'User/ui/screens/trips.dart';
 import 'trips_cupertino.dart';
 
 void main() => runApp(MyApp());
