@@ -124,7 +124,6 @@ class Tasks extends StatelessWidget {
             taskAdd,
             taskAirport,
             taskAirPlay,
-            taskApps
           ],
         )
       ],

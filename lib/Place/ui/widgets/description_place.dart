@@ -77,8 +77,6 @@ class DescriptionPlace extends StatelessWidget {
             start,
             start,
             start,
-            start,
-            start,
             star_half,
             star_border
           ],

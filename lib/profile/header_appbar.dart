@@ -14,7 +14,7 @@ class HeaderAppBar extends StatelessWidget{
             'assets/img/face/cara-6.jpeg',
             'Manuel Moreno','zerocool.moreno@gmail.com'
         ),
-        Tasks(250.0,17.0,17.0),
+        Tasks(250.0,21.0,17.0),
       ],
     );
   }

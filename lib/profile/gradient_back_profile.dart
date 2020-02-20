@@ -11,7 +11,7 @@ class GradientBackProfile extends StatelessWidget {
     // TODO: implement build
 
     final icono = Container(
-      margin: EdgeInsets.only(right: 25.0),
+      margin: EdgeInsets.only(right: 10.0),
       child: Icon(
         Icons.settings,
         color: Colors.white,
@@ -25,7 +25,7 @@ class GradientBackProfile extends StatelessWidget {
         titulo,
         style: TextStyle(
           color: Colors.white,
-          fontSize: 30.0,
+          fontSize: 15.0,
           fontFamily: 'Lato',
           fontWeight: FontWeight.bold,
         ),

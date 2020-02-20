@@ -13,9 +13,9 @@ class ProfileDetails extends StatelessWidget{
     final photoProfile = Column(
       children: <Widget>[
         Container(
-          margin: EdgeInsets.only(top: 125.0, left: 19.0),
-          width: 90.0,
-          height:90.0,
+          margin: EdgeInsets.only(top: 110.0, left: 18.0),
+          width: 60.0,
+          height:60.0,
           decoration: BoxDecoration(
               border: Border.all(
                 color: Colors.white,
@@ -33,14 +33,14 @@ class ProfileDetails extends StatelessWidget{
     );
 
     final nameUserProfile = Container(
-      margin: EdgeInsets.only(top: 140.0, left:15.0),
+      margin: EdgeInsets.only(top: 120.0, left:8.0),
       width: 200.0,
       child: Text(
         name,
         textAlign: TextAlign.left,
         style: TextStyle(
             fontFamily: "Lato",
-            fontSize: 19.0,
+            fontSize: 12.0,
             fontWeight:
             FontWeight.w300,
             color: Colors.white
@@ -49,13 +49,13 @@ class ProfileDetails extends StatelessWidget{
     );
 
     final emailUserProfile = Container(
-      margin: EdgeInsets.only(top:5.0,left:15.0),
+      margin: EdgeInsets.only(top:1.0,left:8.0),
       child: Text(
         email,
         textAlign: TextAlign.left,
         style: TextStyle(
             fontFamily: "Lato",
-            fontSize: 17.0,
+            fontSize: 10.0,
             color: Color(0xFFa3a5a7)
         ),
       ),

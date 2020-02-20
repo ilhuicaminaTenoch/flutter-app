@@ -54,7 +54,7 @@ class CardImageStep extends StatelessWidget {
         style: TextStyle(
             fontWeight: FontWeight.bold,
             fontFamily: 'Lato',
-            fontSize: 19.0,
+            fontSize: 13.0,
             color: Colors.black
         ),
       ),
@@ -73,7 +73,7 @@ class CardImageStep extends StatelessWidget {
         style: TextStyle(
             //fontWeight: FontWeight.bold,
             fontFamily: 'Lato',
-            fontSize: 12.0,
+            fontSize: 9.0,
             color: Colors.grey
         ),
       ),
@@ -81,7 +81,7 @@ class CardImageStep extends StatelessWidget {
 
     final steps = Container(
       padding: EdgeInsets.only(
-        left: 20.0
+        left: 17.0
       ),
       child: Row(
         children: <Widget>[
@@ -89,7 +89,7 @@ class CardImageStep extends StatelessWidget {
             stepsTravel,
             style: TextStyle(
               color: Colors.amber,
-              fontSize: 14.0,
+              fontSize: 9.0,
               fontFamily: 'Lato',
               fontWeight: FontWeight.bold
             ),
